@@ -1,0 +1,145 @@
+/* laptop */
+@media screen and (max-width: 1100px) {
+  .box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .header-msg {
+    padding: 4px;
+  }
+
+  .introduction-section > div {
+    width: 40%;
+  }
+
+  .section-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introduction-left h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+
+  .section-about {
+    max-width: 80%;
+  }
+
+  .helpers .container {
+    align-items: center;
+  }
+
+  .helpers-container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 80%;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 900px) {
+  .container {
+    align-items: center;
+  }
+
+  .introduction-section {
+    align-items: center;
+  }
+
+  .small-title {
+    right: 0;
+    font-size: 13;
+  }
+
+  .marker {
+    line-height: 1.7;
+  }
+
+  .section-headline .marker {
+    font-size: 40;
+  }
+
+  .marker.marker-small {
+    font-size: 22px;
+  }
+
+  .introduction-section > div {
+    width: 45%;
+  }
+
+  .introduction-section {
+    flex-direction: column;
+  }
+
+  .introduction-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .introduction-bottom-part {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .introduction-left h2 {
+    font-size: 50;
+    line-height: 1;
+  }
+
+  .profile-pic-anim {
+    display: none;
+  }
+
+  .helpers-container h2 {
+    font-size: 18;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .introduction-left h2 {
+    padding-top: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-msg {
+    text-align: center;
+    padding: 6px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 650px) {
+  .marker {
+    max-width: 80%;
+  }
+
+  .small-title {
+    font-size: 11;
+  }
+
+  .introduction-left h2 {
+    font-size: 40;
+  }
+
+  .introduction-left p {
+    font-size: 16;
+  }
+
+  .helpers-container h2 {
+    font-size: 16;
+  }
+}

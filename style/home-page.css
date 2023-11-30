@@ -1,0 +1,93 @@
+/***********radio-button***********/
+
+.see-me-radio-duo {
+  position: absolute;
+  width: 150;
+  height: 30px;
+  left: 51%;
+  transform: translateX(-55%);
+}
+
+.start-radio-btn {
+  top: 20.3%;
+  z-index: 255;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.start-radio-label {
+  top: 20%;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: lighter;
+  font-size: 16;
+  text-align: center;
+  padding-top: 10px;
+  border: 2px rgba(255, 238, 0, 0.8) solid;
+}
+
+.start-radio-btn:hover ~ .start-radio-label {
+  color: rgba(0, 0, 0);
+  font-weight: bold;
+  font-size: 15.9;
+  background-color: rgba(255, 238, 0, 0.8);
+}
+
+.start-radio-btn:checked ~ .home-page {
+  display: none;
+}
+
+.start-radio-btn:checked {
+  display: none;
+}
+
+.start-radio-btn:checked ~ label {
+  display: none;
+}
+
+.start-radio-btn:checked ~ .content-body {
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+}
+
+/***********home-page***********/
+
+.home-page {
+  background-color: rgb(0, 0, 0, 0.6);
+  background-image: url(../images/backGround1.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: auto;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+.headline {
+  text-align: center;
+  margin: 0;
+  font-family: metal;
+  font-weight: lighter;
+  transition: 0.5s;
+}
+
+.headline:hover {
+  transform: scaleX(130%);
+}
+
+.my-name {
+  font-size: 7em;
+  font-weight: bold;
+  color: white;
+}
+
+.my-specialty {
+  font-size: 1.2em;
+  letter-spacing: 4px;
+  color: rgba(255, 255, 255, 0.7);
+}
